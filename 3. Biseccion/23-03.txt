@@ -1,0 +1,39 @@
+
+
+funcion
+elijo metodo
+converge-llega mas rapido a la solucion
+
+____________________________________________________________
+graficar forma simbolica
+
+syms x
+ezplot(sin(10*x)+cos(3*x))          //grafica 
+ezplot(sin(10*x)+cos(3*x), 4, 5)	//grafica en intervalos (4,5)
+// ezplot(sin(10*x)+cos(3*x), 4, 5); grid on 
+grid on //cuadriculado
+
+graficar forma simbolica
+x=4.2: 0.01 :4.3 
+y=sin(10.*x)+cos(3.*x)
+plot(x,y), title('Grafico'), xlabel('x'), ylabel('y'), grid on
+
+
+pag139
+5.1 
+5.2
+5.3
+5.4
+
+grafica + programa_________________________________________________________
+syms x
+ezplot(sin(10*x)+cos(3*x),5,4),grid on
+
+x = 4.2: 0.01:4.3
+y = sin(10*.x)+cos(3*.x)
+plot(x,y),title('grafico'),xlabel('x'),ylabel('y'),grid on
+
+
+TAREA 
+5.1, 5.2, 5.3, 5.5
+0.0001
